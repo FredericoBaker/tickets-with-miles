@@ -21,7 +21,7 @@ class FlightSearchSeleniumTest(StaticLiveServerTestCase):
 
         options = webdriver.ChromeOptions()
         
-        # options.add_argument('--headless')
+        options.add_argument('--headless')
 
         cls.driver = webdriver.Chrome(
             service=ChromeService(ChromeDriverManager().install()),
