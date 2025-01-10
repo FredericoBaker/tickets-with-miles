@@ -59,13 +59,15 @@ Retorna-se uma lista de voos que atendem aos critérios, apresentando informaç�
 
 ## Observações
 
-Para executar **todos os testes** (unidade, integração e E2E):
+Para executar os testes de unidade, integração e E2E respectivamente:
 
 ```bash
-python manage.py test
+python manage.py test flights/tests/unit
 ```
 
-Para **somente os testes E2E** (ex.: no diretório `flights/tests/e2e`):
+```bash
+python manage.py test flights/tests/integration
+```
 
 ```bash
 python manage.py test flights/tests/e2e
