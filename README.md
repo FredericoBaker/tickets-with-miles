@@ -58,7 +58,15 @@ Retorna-se uma lista de voos que atendem aos critérios, apresentando informaç�
 7. Acesse a aplicação no navegador através de [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
 ## Observações
-- Caso deseje executar os testes do projeto, utilize:
-  ```bash
-  python manage.py test
-  ```
+
+Para executar **todos os testes** (unidade, integração e E2E):
+
+```bash
+python manage.py test
+```
+
+Para **somente os testes E2E** (ex.: no diretório `flights/tests/e2e`):
+
+```bash
+python manage.py test flights/tests/e2e
+```
