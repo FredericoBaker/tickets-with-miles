@@ -1,9 +1,9 @@
 # Buscador de Voos com Milhas na Smiles
 
 ## Integrantes do Grupo
-- Frederico Dolher Souza Baker (2021031513)
-- Daniel Oliveira Barbosa (2020006450)
-- Victor Prates Figueiredo (2019007317)
+- Frederico Dolher Souza Baker - (2021031513)
+- Daniel Oliveira Barbosa - (2020006450)
+- Victor Prates Figueiredo - (2019007317)
 
 ## Descrição do Sistema
 Esta é uma aplicação que permite a pesquisa de voos da plataforma Smiles com flexibilidade de datas. Ao fornecer os seguintes parâmetros:
