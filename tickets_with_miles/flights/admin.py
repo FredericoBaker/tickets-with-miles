@@ -4,3 +4,4 @@ from .models import Airport
 @admin.register(Airport)
 class AirportAdmin(admin.ModelAdmin):
     list_display = ('name', 'iata_code', 'state_code', 'country_code', 'country_name')
+    search_fields = ('name', 'iata_code', 'state_code', 'country_code', 'country_name')
