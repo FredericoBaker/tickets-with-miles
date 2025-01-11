@@ -40,6 +40,11 @@ jobs:
         cd tickets_with_miles
         python manage.py test flights/tests/unit
 
+    - name: Run integration tests
+      run: |
+        cd tickets_with_miles
+        python manage.py test flights/tests/integration
+
     - name: Run E2E tests
       run: |
         cd tickets_with_miles
